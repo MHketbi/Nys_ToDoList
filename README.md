@@ -1,6 +1,5 @@
 # Nys_ToDoList
-Shadowlands Check List
-Requires : https://www.curseforge.com/wow/addons/nys-todolist addon
+Shadowlands Check List requires [Ny's To-Do List](https://www.curseforge.com/wow/addons/nys-todolist) addon
 
 # How to implement
 0- exit the game
