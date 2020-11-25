@@ -11,3 +11,9 @@ Shadowlands Check List
 3- paste the downloaded (overwrite)
 
 4- in the game, go to Nys ToDoList profile settings and load "Default"
+
+# Latest version should look like this
+
+![Dailies](https://i.imgur.com/NHHxoOr.png)
+
+![Weeklies 1](https://i.imgur.com/P0Bsjqg.png) ![Weeklies 2](https://i.imgur.com/JyQHBRf.png)
