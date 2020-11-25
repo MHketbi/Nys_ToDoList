@@ -12,6 +12,7 @@ NysToDoListDB = {
 					["World Quests"] = {
 						["tabName"] = "Daily",
 						["checked"] = false,
+						["description"] = "get anima, conduits and gear from WQ",
 					},
 				},
 				["Torghast"] = {
@@ -27,11 +28,13 @@ NysToDoListDB = {
 				["Mandatory"] = {
 					["Complete Campaing"] = {
 						["tabName"] = "Daily",
-						["checked"] = false,
+						["checked"] = true,
+						["description"] = "you can remove this once completed",
 					},
 					["Complete Covenant quest"] = {
 						["tabName"] = "Daily",
-						["checked"] = false,
+						["checked"] = true,
+						["description"] = "you can remove this once completed",
 					},
 				},
 				["Covenant"] = {
@@ -50,37 +53,15 @@ NysToDoListDB = {
 						["checked"] = false,
 						["description"] = "For Reservoir Anima and other items",
 					},
-					["Rares"] = {
-						["tabName"] = "Daily",
-						["checked"] = false,
-						["description"] = "For Reservoir Anima and other items",
-					},
 					["Reservoir Anima"] = {
 						["tabName"] = "Daily",
 						["checked"] = false,
 						["description"] = "From Dungeons and WQ",
 					},
-				},
-				["Quests"] = {
-					["Weekly PVP/Dungeon 3"] = {
-						["tabName"] = "Weekly",
+					["Rares"] = {
+						["tabName"] = "Daily",
 						["checked"] = false,
-					},
-					["Weekly PVP/Dungeon 2"] = {
-						["tabName"] = "Weekly",
-						["checked"] = false,
-					},
-					["Return Lost Souls"] = {
-						["tabName"] = "Weekly",
-						["checked"] = false,
-					},
-					["Weekly PVP/Dungeon 1"] = {
-						["tabName"] = "Weekly",
-						["checked"] = false,
-					},
-					["Replenish the Reservoir"] = {
-						["tabName"] = "Weekly",
-						["checked"] = false,
+						["description"] = "For Reservoir Anima and other items",
 					},
 				},
 				["The Vault"] = {
@@ -121,26 +102,14 @@ NysToDoListDB = {
 						["checked"] = false,
 					},
 				},
-				["Legendary/Conduit"] = {
-					["Legendary Recipe"] = {
-						["tabName"] = "Daily",
-						["checked"] = false,
-						["description"] = "know where the recipe you want comes from and farm it",
-					},
-					["Farm Conduit"] = {
-						["tabName"] = "Daily",
-						["checked"] = false,
-						["description"] = "know where your best conduit come from and farm that content",
-					},
-				},
 				["Mythic0"] = {
-					["Plaguefall"] = {
-						["tabName"] = "Weekly",
-						["checked"] = false,
-					},
 					["Necrotic Wake"] = {
 						["tabName"] = "Weekly",
-						["checked"] = false,
+						["checked"] = true,
+					},
+					["De Other Side"] = {
+						["tabName"] = "Weekly",
+						["checked"] = true,
 					},
 					["Halls of Atonement"] = {
 						["tabName"] = "Weekly",
@@ -148,11 +117,11 @@ NysToDoListDB = {
 					},
 					["Theater of Pain"] = {
 						["tabName"] = "Weekly",
-						["checked"] = false,
+						["checked"] = true,
 					},
 					["Mists of Tirna Scithe"] = {
 						["tabName"] = "Weekly",
-						["checked"] = false,
+						["checked"] = true,
 					},
 					["Sanguine Depths"] = {
 						["tabName"] = "Weekly",
@@ -162,9 +131,48 @@ NysToDoListDB = {
 						["tabName"] = "Weekly",
 						["checked"] = false,
 					},
-					["De Other Side"] = {
+					["Plaguefall"] = {
+						["tabName"] = "Weekly",
+						["checked"] = true,
+					},
+				},
+				["Legendary/Conduit"] = {
+					["Farm Conduit"] = {
+						["tabName"] = "Daily",
+						["checked"] = false,
+						["description"] = "know where your best conduit come from and farm that content",
+					},
+					["Legendary Recipe"] = {
+						["tabName"] = "Daily",
+						["checked"] = false,
+						["description"] = "know where the recipe you want comes from and farm it",
+					},
+				},
+				["Quests"] = {
+					["Weekly PVP/Dungeon 3"] = {
 						["tabName"] = "Weekly",
 						["checked"] = false,
+						["description"] = "from Oribos",
+					},
+					["Weekly PVP/Dungeon 2"] = {
+						["tabName"] = "Weekly",
+						["checked"] = false,
+						["description"] = "from Oribos",
+					},
+					["Return Lost Souls"] = {
+						["tabName"] = "Weekly",
+						["checked"] = false,
+						["description"] = "from covenant",
+					},
+					["Replenish the Reservoir"] = {
+						["tabName"] = "Weekly",
+						["checked"] = false,
+						["description"] = "from covenant",
+					},
+					["Weekly PVP/Dungeon 1"] = {
+						["tabName"] = "Weekly",
+						["checked"] = false,
+						["description"] = "from Oribos",
 					},
 				},
 				["Maw"] = {
@@ -176,6 +184,7 @@ NysToDoListDB = {
 					["Daily Quest 1"] = {
 						["tabName"] = "Daily",
 						["checked"] = false,
+						["description"] = "on the maw map you should see a blue quest mark",
 					},
 					["Reputation"] = {
 						["tabName"] = "Daily",
@@ -185,19 +194,24 @@ NysToDoListDB = {
 					["Eye of the Jailor Locked"] = {
 						["tabName"] = "Daily",
 						["checked"] = false,
+						["description"] = "everyday while farming in the maw you are limited by the eye of the jailor",
 					},
 					["Daily Quest 2"] = {
 						["tabName"] = "Daily",
 						["checked"] = false,
+						["description"] = "on the maw map you should see a blue quest mark",
 					},
 				},
 			},
+			["lastLoadedTab"] = "ToDoListUIFrameTab3",
+			["dailyHour"] = 8,
 			["frameSize"] = {
-				["width"] = 340.0000610351563,
+				["height"] = 600,
+				["width"] = 400.0001831054688,
 			},
 			["autoReset"] = {
-				["Weekly"] = 1606280399,
-				["Daily"] = 1606280399,
+				["Weekly"] = 1606881599,
+				["Daily"] = 1606363199,
 			},
 			["undoTable"] = {
 				{
@@ -316,8 +330,8 @@ NysToDoListDB = {
 				}, -- [19]
 			},
 			["framePos"] = {
-				["xOffset"] = 206.2225952148438,
-				["yOffset"] = 33.18515777587891,
+				["xOffset"] = 456.4074401855469,
+				["yOffset"] = 81.96298217773438,
 			},
 		},
 	},
