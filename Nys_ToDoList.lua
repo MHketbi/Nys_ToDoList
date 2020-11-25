@@ -8,6 +8,32 @@ NysToDoListDB = {
 	["profiles"] = {
 		["Default"] = {
 			["itemsList"] = {
+				["Other"] = {
+					["World Quests"] = {
+						["tabName"] = "Daily",
+						["checked"] = false,
+					},
+				},
+				["Torghast"] = {
+					["Wing 1"] = {
+						["tabName"] = "Weekly",
+						["checked"] = false,
+					},
+					["Wing 2"] = {
+						["tabName"] = "Weekly",
+						["checked"] = false,
+					},
+				},
+				["Mandatory"] = {
+					["Complete Campaing"] = {
+						["tabName"] = "Daily",
+						["checked"] = false,
+					},
+					["Complete Covenant quest"] = {
+						["tabName"] = "Daily",
+						["checked"] = false,
+					},
+				},
 				["Covenant"] = {
 					["Daily calls"] = {
 						["tabName"] = "Daily",
@@ -36,43 +62,25 @@ NysToDoListDB = {
 					},
 				},
 				["Quests"] = {
-					["pvp weekly 2"] = {
+					["Weekly PVP/Dungeon 3"] = {
 						["tabName"] = "Weekly",
 						["checked"] = false,
 					},
-					["heroic dungeon weekly"] = {
+					["Weekly PVP/Dungeon 2"] = {
 						["tabName"] = "Weekly",
 						["checked"] = false,
 					},
-					["pvp weekly 1"] = {
+					["Return Lost Souls"] = {
 						["tabName"] = "Weekly",
 						["checked"] = false,
 					},
-					["normal dungeon weekly"] = {
+					["Weekly PVP/Dungeon 1"] = {
 						["tabName"] = "Weekly",
 						["checked"] = false,
 					},
-				},
-				["Torghast"] = {
-					["Wing 1"] = {
+					["Replenish the Reservoir"] = {
 						["tabName"] = "Weekly",
 						["checked"] = false,
-					},
-					["Wing 2"] = {
-						["tabName"] = "Weekly",
-						["checked"] = false,
-					},
-				},
-				["Legendary/Conduit"] = {
-					["Legendary Recipe"] = {
-						["tabName"] = "Daily",
-						["checked"] = false,
-						["description"] = "know where the recipe you want comes from and farm it",
-					},
-					["Farm Conduit"] = {
-						["tabName"] = "Daily",
-						["checked"] = false,
-						["description"] = "know where your best conduit come from and farm that content",
 					},
 				},
 				["The Vault"] = {
@@ -113,14 +121,16 @@ NysToDoListDB = {
 						["checked"] = false,
 					},
 				},
-				["Mandatory"] = {
-					["Complete Campaing"] = {
+				["Legendary/Conduit"] = {
+					["Legendary Recipe"] = {
 						["tabName"] = "Daily",
 						["checked"] = false,
+						["description"] = "know where the recipe you want comes from and farm it",
 					},
-					["Complete Covenant quest"] = {
+					["Farm Conduit"] = {
 						["tabName"] = "Daily",
 						["checked"] = false,
+						["description"] = "know where your best conduit come from and farm that content",
 					},
 				},
 				["Mythic0"] = {
@@ -158,25 +168,36 @@ NysToDoListDB = {
 					},
 				},
 				["Maw"] = {
-					["Reputation"] = {
-						["tabName"] = "Daily",
-						["checked"] = false,
-						["description"] = "to open more Torghast upgrades",
-					},
 					["Stygia"] = {
 						["tabName"] = "Daily",
 						["checked"] = false,
 						["description"] = "Currency for socket and Torghast upgrades",
 					},
+					["Daily Quest 1"] = {
+						["tabName"] = "Daily",
+						["checked"] = false,
+					},
+					["Reputation"] = {
+						["tabName"] = "Daily",
+						["checked"] = false,
+						["description"] = "to open more Torghast upgrades",
+					},
+					["Eye of the Jailor Locked"] = {
+						["tabName"] = "Daily",
+						["checked"] = false,
+					},
+					["Daily Quest 2"] = {
+						["tabName"] = "Daily",
+						["checked"] = false,
+					},
 				},
 			},
-			["lastLoadedTab"] = "ToDoListUIFrameTab1",
 			["frameSize"] = {
 				["width"] = 340.0000610351563,
 			},
 			["autoReset"] = {
 				["Weekly"] = 1606280399,
-				["Daily"] = 1606193999,
+				["Daily"] = 1606280399,
 			},
 			["undoTable"] = {
 				{
@@ -257,6 +278,42 @@ NysToDoListDB = {
 					["checked"] = false,
 					["catName"] = "Mythic0",
 				}, -- [13]
+				{
+					["tabName"] = "Weekly",
+					["itemName"] = "Replenish the Reservoir ",
+					["checked"] = false,
+					["catName"] = "Quest",
+				}, -- [14]
+				{
+					["tabName"] = "Weekly",
+					["itemName"] = "Return Lost Souls ",
+					["checked"] = false,
+					["catName"] = "Quest",
+				}, -- [15]
+				{
+					["tabName"] = "Weekly",
+					["itemName"] = "heroic dungeon weekly",
+					["checked"] = false,
+					["catName"] = "Quests",
+				}, -- [16]
+				{
+					["tabName"] = "Weekly",
+					["itemName"] = "normal dungeon weekly",
+					["checked"] = false,
+					["catName"] = "Quests",
+				}, -- [17]
+				{
+					["tabName"] = "Weekly",
+					["itemName"] = "pvp weekly 1",
+					["checked"] = false,
+					["catName"] = "Quests",
+				}, -- [18]
+				{
+					["tabName"] = "Weekly",
+					["itemName"] = "pvp weekly 2",
+					["checked"] = false,
+					["catName"] = "Quests",
+				}, -- [19]
 			},
 			["framePos"] = {
 				["xOffset"] = 206.2225952148438,
