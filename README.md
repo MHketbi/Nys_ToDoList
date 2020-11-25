@@ -12,7 +12,7 @@ Shadowlands Check List requires [Ny's To-Do List](https://www.curseforge.com/wow
 
 4- in the game, go to Nys ToDoList profile settings and load "Default"
 
-# Latest version should look like this
+# Latest version should look like this (Ver 1.2)
 
 ![Dailies](https://i.imgur.com/NHHxoOr.png)
 
