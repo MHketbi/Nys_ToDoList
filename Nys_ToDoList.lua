@@ -26,7 +26,7 @@ NysToDoListDB = {
 					},
 				},
 				["Mandatory"] = {
-					["Complete Campaing"] = {
+					["Complete Campaign"] = {
 						["tabName"] = "Daily",
 						["checked"] = true,
 						["description"] = "you can remove this once completed",
@@ -115,7 +115,7 @@ NysToDoListDB = {
 						["tabName"] = "Weekly",
 						["checked"] = false,
 					},
-					["Theater of Pain"] = {
+					["Theatre of Pain"] = {
 						["tabName"] = "Weekly",
 						["checked"] = true,
 					},
@@ -288,7 +288,7 @@ NysToDoListDB = {
 				}, -- [12]
 				{
 					["tabName"] = "Weekly",
-					["itemName"] = "Mists of Tirna Scite",
+					["itemName"] = "Mists of Tirna Scithe",
 					["checked"] = false,
 					["catName"] = "Mythic0",
 				}, -- [13]
