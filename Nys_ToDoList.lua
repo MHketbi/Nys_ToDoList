@@ -7,61 +7,13 @@ NysToDoListDB = {
 	},
 	["profiles"] = {
 		["Default"] = {
+			["latestVersion"] = "5.6",
 			["itemsList"] = {
 				["Other"] = {
 					["World Quests"] = {
 						["tabName"] = "Daily",
 						["checked"] = false,
 						["description"] = "get anima, conduits and gear from WQ",
-					},
-				},
-				["Torghast"] = {
-					["Wing 1"] = {
-						["tabName"] = "Weekly",
-						["checked"] = false,
-					},
-					["Wing 2"] = {
-						["tabName"] = "Weekly",
-						["checked"] = false,
-					},
-				},
-				["Mandatory"] = {
-					["Complete Campaing"] = {
-						["tabName"] = "Daily",
-						["checked"] = true,
-						["description"] = "you can remove this once completed",
-					},
-					["Complete Covenant quest"] = {
-						["tabName"] = "Daily",
-						["checked"] = true,
-						["description"] = "you can remove this once completed",
-					},
-				},
-				["Covenant"] = {
-					["Daily calls"] = {
-						["tabName"] = "Daily",
-						["checked"] = false,
-						["description"] = "Emissary like daily calls for rewards",
-					},
-					["Adventures"] = {
-						["tabName"] = "Daily",
-						["checked"] = false,
-						["description"] = "do your table missions",
-					},
-					["Treasures"] = {
-						["tabName"] = "Daily",
-						["checked"] = false,
-						["description"] = "For Reservoir Anima and other items",
-					},
-					["Reservoir Anima"] = {
-						["tabName"] = "Daily",
-						["checked"] = false,
-						["description"] = "From Dungeons and WQ",
-					},
-					["Rares"] = {
-						["tabName"] = "Daily",
-						["checked"] = false,
-						["description"] = "For Reservoir Anima and other items",
 					},
 				},
 				["The Vault"] = {
@@ -102,50 +54,47 @@ NysToDoListDB = {
 						["checked"] = false,
 					},
 				},
-				["Mythic0"] = {
-					["Necrotic Wake"] = {
-						["tabName"] = "Weekly",
-						["checked"] = true,
-					},
-					["De Other Side"] = {
-						["tabName"] = "Weekly",
-						["checked"] = true,
-					},
-					["Halls of Atonement"] = {
+				["Covenant"] = {
+					["Renown 2"] = {
 						["tabName"] = "Weekly",
 						["checked"] = false,
 					},
-					["Theater of Pain"] = {
-						["tabName"] = "Weekly",
-						["checked"] = true,
-					},
-					["Mists of Tirna Scithe"] = {
-						["tabName"] = "Weekly",
-						["checked"] = true,
-					},
-					["Sanguine Depths"] = {
+					["Renown 1"] = {
 						["tabName"] = "Weekly",
 						["checked"] = false,
 					},
-					["Spires of Ascension"] = {
+					["Renown 4"] = {
 						["tabName"] = "Weekly",
 						["checked"] = false,
 					},
-					["Plaguefall"] = {
+					["Renown 5"] = {
 						["tabName"] = "Weekly",
-						["checked"] = true,
+						["checked"] = false,
+					},
+					["Renown 3"] = {
+						["tabName"] = "Weekly",
+						["checked"] = false,
+					},
+					["Renown 6"] = {
+						["tabName"] = "Weekly",
+						["checked"] = false,
 					},
 				},
-				["Legendary/Conduit"] = {
-					["Farm Conduit"] = {
+				["Gearing"] = {
+					["Heroics (ilvl 171)"] = {
 						["tabName"] = "Daily",
 						["checked"] = false,
-						["description"] = "know where your best conduit come from and farm that content",
+						["description"] = "if you have any slot with less than ilvl 171 then queue for random heroic to upgrade it.",
 					},
-					["Legendary Recipe"] = {
-						["tabName"] = "Daily",
+				},
+				["Torghast"] = {
+					["Wing 1"] = {
+						["tabName"] = "Weekly",
 						["checked"] = false,
-						["description"] = "know where the recipe you want comes from and farm it",
+					},
+					["Wing 2"] = {
+						["tabName"] = "Weekly",
+						["checked"] = false,
 					},
 				},
 				["Quests"] = {
@@ -155,6 +104,11 @@ NysToDoListDB = {
 						["description"] = "from Oribos",
 					},
 					["Weekly PVP/Dungeon 2"] = {
+						["tabName"] = "Weekly",
+						["checked"] = false,
+						["description"] = "from Oribos",
+					},
+					["Weekly PVP/Dungeon 1"] = {
 						["tabName"] = "Weekly",
 						["checked"] = false,
 						["description"] = "from Oribos",
@@ -169,10 +123,51 @@ NysToDoListDB = {
 						["checked"] = false,
 						["description"] = "from covenant",
 					},
-					["Weekly PVP/Dungeon 1"] = {
+				},
+				["Legendary/Conduit"] = {
+					["Legendary Recipe"] = {
+						["tabName"] = "Daily",
+						["checked"] = false,
+						["description"] = "know where the recipe you want comes from and farm it",
+					},
+					["Farm Conduit"] = {
+						["tabName"] = "Daily",
+						["checked"] = false,
+						["description"] = "know where your best conduit come from and farm that content",
+					},
+				},
+				["Mythic0"] = {
+					["Theatre of Pain"] = {
 						["tabName"] = "Weekly",
 						["checked"] = false,
-						["description"] = "from Oribos",
+					},
+					["De Other Side"] = {
+						["tabName"] = "Weekly",
+						["checked"] = false,
+					},
+					["Sanguine Depths"] = {
+						["tabName"] = "Weekly",
+						["checked"] = false,
+					},
+					["Plaguefall"] = {
+						["tabName"] = "Weekly",
+						["checked"] = false,
+					},
+					["Mists of Tirna Scithe"] = {
+						["tabName"] = "Weekly",
+						["checked"] = false,
+					},
+					["Necrotic Wake"] = {
+						["tabName"] = "Weekly",
+						["checked"] = false,
+					},
+					["Spires of Ascension"] = {
+						["tabName"] = "Weekly",
+						["checked"] = false,
+					},
+					["Halls of Atonement"] = {
+						["tabName"] = "Weekly",
+						["checked"] = false,
 					},
 				},
 				["Maw"] = {
@@ -206,12 +201,26 @@ NysToDoListDB = {
 			["lastLoadedTab"] = "ToDoListUIFrameTab3",
 			["dailyHour"] = 8,
 			["frameSize"] = {
-				["height"] = 600,
+				["height"] = 600.0000610351562,
 				["width"] = 400.0001831054688,
 			},
 			["autoReset"] = {
-				["Weekly"] = 1606881599,
-				["Daily"] = 1606363199,
+				["Weekly"] = 1607486399,
+				["Daily"] = 1607054399,
+			},
+			["closedCategories"] = {
+				["Covenant"] = {
+					"Weekly", -- [1]
+				},
+				["The Vault"] = {
+					"Weekly", -- [1]
+				},
+				["Torghast"] = {
+					"Weekly", -- [1]
+				},
+				["Quests"] = {
+					"Weekly", -- [1]
+				},
 			},
 			["undoTable"] = {
 				{
@@ -328,10 +337,58 @@ NysToDoListDB = {
 					["checked"] = false,
 					["catName"] = "Quests",
 				}, -- [19]
+				{
+					["tabName"] = "Daily",
+					["itemName"] = "Complete Covenant quest",
+					["checked"] = false,
+					["catName"] = "Mandatory",
+				}, -- [20]
+				{
+					["tabName"] = "Daily",
+					["itemName"] = "Complete Campaing",
+					["checked"] = false,
+					["catName"] = "Mandatory",
+				}, -- [21]
+				{
+					["tabName"] = "Daily",
+					["itemName"] = "Renown 1",
+					["checked"] = true,
+					["catName"] = "Covenant",
+				}, -- [22]
+				{
+					["tabName"] = "Daily",
+					["itemName"] = "Renown 2",
+					["checked"] = true,
+					["catName"] = "Covenant",
+				}, -- [23]
+				{
+					["tabName"] = "Daily",
+					["itemName"] = "Renown 3",
+					["checked"] = false,
+					["catName"] = "Covenant",
+				}, -- [24]
+				{
+					["tabName"] = "Daily",
+					["itemName"] = "Renown 4",
+					["checked"] = false,
+					["catName"] = "Covenant",
+				}, -- [25]
+				{
+					["tabName"] = "Daily",
+					["itemName"] = "Renown 5",
+					["checked"] = false,
+					["catName"] = "Covenant",
+				}, -- [26]
+				{
+					["tabName"] = "Daily",
+					["itemName"] = "Renown 6",
+					["checked"] = false,
+					["catName"] = "Covenant",
+				}, -- [27]
 			},
 			["framePos"] = {
-				["xOffset"] = 456.4074401855469,
-				["yOffset"] = 81.96298217773438,
+				["xOffset"] = 435.8518981933594,
+				["yOffset"] = 84.37040710449219,
 			},
 		},
 	},
